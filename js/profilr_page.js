@@ -23,6 +23,9 @@ function openHelpPage() {
   window.location.href = "../screens/aboutus.html";
 }
 
+
+let $ = (selector) => document.querySelector(selector);
+
 profile = {
     email : "parthshah.ps921@gmail.com",
     contact : "+1 437-424-5838",
